@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Static Fuse',
-    description: 'Headless WordPress with Gatsby FTW.',
-    author: 'Scott and Justin',
-    twitter: '@staticfuse',
-    siteUrl: `https://staticfuse.com`,
+    title: 'WP - Gatsby',
+    description: 'Headless WordPress with Gatsby.',
+    author: 'Filip Medak',
+    twitter: '@medakf',
+    siteUrl: `https://filipmedak.com`,
   },
   plugins: [
     {
@@ -12,10 +12,10 @@ module.exports = {
       options: {
         starterPages: true,
         mailChimpEndpoint: 0,
-        dynamicComments: 1,
+        dynamicComments: 0,
         gaTrackingId: 0,
-        wordPressUrl: `https://publishertheme.staticfuse.com`,
-        blogURI: '/blog'
+        wordPressUrl: `https://fmedak.mojweb.com.hr/wordpress`,
+        blogURI: '/'
       },
     },
   ],
